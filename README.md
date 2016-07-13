@@ -2,9 +2,9 @@
 
 ## 目录以及文件说明
 
-| - Makefile	make文件
-| - objs		目标文件目录
-| - src			源文件目录
+	| - Makefile	make文件
+	| - objs		目标文件目录
+	| - src			源文件目录
 
 
 ## 执行
