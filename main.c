@@ -2,6 +2,7 @@
 
 int bubble(int *a, int len);
 int selection(int *a, int len);
+int fibonacci();
 
 int main() {
     int a[] = {2, 6, 1, 0, 8, 5, 7, 4, 3};
@@ -15,4 +16,7 @@ int main() {
 
     printf("# Selection Sort \n");
     selection(a, len);
+
+    printf("# Fibonacci sequence \n");
+    fibonacci();
 }
