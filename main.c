@@ -8,13 +8,16 @@ int t02();
 int t03();
 int t04();
 
+int s01();
+int o01();
+
 int main() {
-    int a[] = {2, 6, 1, 0, 8, 5, 7, 4, 3};
-    int len = sizeof(a)/sizeof(int);
-
-
-    printf("# Bubble Sort \n");
-    bubble(a, len); // 冒泡排序
+//    int a[] = {2, 6, 1, 0, 8, 5, 7, 4, 3};
+//    int len = sizeof(a)/sizeof(int);
+//
+//
+//    printf("# Bubble Sort \n");
+//    bubble(a, len); // 冒泡排序
 //
 //    // 注意要把数组顺序打乱...
 //
@@ -32,4 +35,8 @@ int main() {
 //    t03(); // 杨辉三角
 //    printf("------------\n");
 //    t04(); // 九九乘法表
+
+    s01();
+//    o01();
+    return 0;
 }
