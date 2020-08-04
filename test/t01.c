@@ -12,6 +12,7 @@ int t01() {
     for ( int i = 0; i < 10; i++) {
         scanf("%d", &scores[i]);
     }
+    printf("\n");
 
     // 打印输入数据
     printf("inputs: \n");
@@ -34,8 +35,8 @@ int t01() {
     }
     average = sum / 10;
     printf("min: %d\n", scores[0]);
-    printf("max: %d\n ", scores[9]);
-    printf("sum: %d\n ", sum);
+    printf("max: %d\n", scores[9]);
+    printf("sum: %d\n", sum);
     printf("average: %.2f\n", average);
 
     for (int i = 0; i < 10; i++) {

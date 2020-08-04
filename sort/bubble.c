@@ -6,7 +6,7 @@
 int bubble(int *a, int len) {
     // int Len = sizeof(a)/ sizeof(int);
     for(int i = 0; i < len; i++) {
-        printf("%2d: ", i+1);
+        printf("# %d: ", i+1);
         for (int j = 0; j < len - i - 1; j++) {
             int temp;
             if (a[j] > a[j+1]) {
