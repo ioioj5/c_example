@@ -1,11 +1,17 @@
 #include <stdio.h>
-#include <limits.h>
+#include <string.h>
 int s01() {
-    char grade = 'A';
-    int a = 'A';
-    a ++;
-    grade++;
-    printf("%d -> %c sizeof: %d\n", grade, grade, sizeof(grade));
-    printf("%d -> %c \n", a, a);
+    char a[8] = "abc", b[] = "abcdefg";
+
+    int ret = strcmp(a, b);
+    printf("ret = %d \n", ret);
+
+    if (ret == 0) {
+        printf("a = b");
+    }else if (ret == -1) {
+        printf("a < b");
+    }else if (ret == 1) {
+        printf("a > b");
+    }
     return 0;
 }
