@@ -12,7 +12,6 @@
 //1	8	 28	56	70	56	28	8	1
 int t03() {
     int matrix[9][9] = {0};
-
     // 赋值
     for(int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
@@ -29,7 +28,6 @@ int t03() {
             }
         }
     }
-
     // 输出
     for(int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
